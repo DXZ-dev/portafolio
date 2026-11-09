@@ -1,6 +1,6 @@
-# Portafolio · DXZ
+# Portafolio · DXZ — Darlin Fernández Gómez
 
-Estudiante de **Diseño y Creación de Software**, fundador de **NexusConverter** y técnico en hardware, redes y soporte TI.
+Estudiante de **Diseño y Creación de Software**, fundador de **NexusConverter** y técnico en soporte e infraestructura IT con +5 años de experiencia (Santiago, R.D.).
 
 ## Contenido del sitio
 - **Sobre mí** y línea de tiempo
