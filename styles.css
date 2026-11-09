@@ -236,8 +236,8 @@ h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.05; font-weight: 800; l
 
 /* CERTS + SKILLS */
 .certs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.cert-soon { border-style: dashed; border-color: rgba(34, 211, 238, .45); background: linear-gradient(160deg, rgba(34, 211, 238, .06), var(--surface) 55%); }
-.cert-soon::before { background: repeating-linear-gradient(90deg, var(--accent-2) 0 12px, transparent 12px 20px); }
+.cert.cert-soon { border-style: dashed; border-color: rgba(34, 211, 238, .45); background: linear-gradient(160deg, rgba(34, 211, 238, .06), var(--surface) 55%); }
+.cert.cert-soon::before { background: repeating-linear-gradient(90deg, var(--accent-2) 0 12px, transparent 12px 20px); }
 .cert-soon .tags { margin-top: 12px; }
 .soon { color: var(--accent-2); border: 1px solid rgba(34, 211, 238, .4); padding: 3px 10px; border-radius: 999px; font-size: .72rem; animation: blink 2.4s ease-in-out infinite; }
 @keyframes blink { 50% { opacity: .55; } }
