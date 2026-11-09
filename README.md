@@ -1,10 +1,11 @@
 # Portafolio · Darlin Agustín Fernández Gómez
 
-Estudiante de **Diseño y Creación de Software**, fundador de **NexusConverter** y técnico en ensamblaje y reparación de computadoras.
+Estudiante de **Diseño y Creación de Software**, fundador de **NexusConverter** y técnico en hardware, redes y soporte TI.
 
 ## Contenido del sitio
 - **Sobre mí** y línea de tiempo
 - **Proyectos**: NexusConverter (proyecto destacado), este portafolio
+- **Servicios técnicos**: ensamblaje, redes RJ45, racks, mantenimiento, impresoras Xerox/Ricoh, Office, soporte remoto, nubes domésticas
 - **Trabajos de hardware**: galería de PCs ensambladas y mantenimientos (`assets/trabajos/`, fotos originales en `TRABAJOS/`)
 - **Certificaciones** (INDOTEL · BID · Cymetria, 2026):
   - Nube – Nivel Intermedio (80 h)
