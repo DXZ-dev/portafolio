@@ -18,4 +18,4 @@ Estudiante de **Diseño y Creación de Software**, fundador de **NexusConverter*
 
 ## Publicar con GitHub Pages
 Settings → Pages → *Deploy from a branch* → rama `main`, carpeta `/ (root)`.
-El sitio quedará en `https://darlinfernandez003-art.github.io/portafolio/`.
+El sitio quedará en `https://dxz-dev.github.io/portafolio/`.

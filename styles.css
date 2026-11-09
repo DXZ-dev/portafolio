@@ -152,7 +152,7 @@ h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.05; font-weight: 800; l
 .card h3 { margin-bottom: 8px; font-size: 1.08rem; }
 .card p { color: var(--muted); font-size: .94rem; }
 .link { display: inline-flex; gap: 8px; align-items: center; margin-top: 14px; color: var(--accent); font-weight: 600; }
-.services { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.services { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
 .cards-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px; }
 
 /* PROJECT */
@@ -235,7 +235,10 @@ h1 { font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.05; font-weight: 800; l
 .gallery figcaption { display: none; }
 
 /* CERTS + SKILLS */
-.certs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.certs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.cert.cert-soon { grid-column: 1 / -1; }
+.soon-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; }
+.soon-grid .tags { justify-content: flex-end; }
 .cert.cert-soon { border-style: dashed; border-color: rgba(34, 211, 238, .45); background: linear-gradient(160deg, rgba(34, 211, 238, .06), var(--surface) 55%); }
 .cert.cert-soon::before { background: repeating-linear-gradient(90deg, var(--accent-2) 0 12px, transparent 12px 20px); }
 .cert-soon .tags { margin-top: 12px; }
@@ -299,7 +302,8 @@ footer { text-align: center; padding: 40px 16px 100px; color: #5c6275; font-size
 
 /* RESPONSIVE */
 @media (max-width: 960px) {
-  .certs { grid-template-columns: 1fr 1fr; }
+  .soon-grid { grid-template-columns: 1fr; }
+  .soon-grid .tags { justify-content: flex-start; }
   .hero-grid, .about-grid, .project { grid-template-columns: 1fr; }
   .hero-img { max-width: 420px; }
   .services, .skills { grid-template-columns: repeat(2, 1fr); }
