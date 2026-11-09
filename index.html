@@ -14,12 +14,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <header class="nav">
     <a href="#inicio" class="logo">DXZ<span>.</span></a>
-    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
     <nav>
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#servicios">Servicios</a>
@@ -155,10 +155,10 @@
       <div class="container">
         <h2 class="section-title"><span class="mono">04</span> Portafolio de trabajos</h2>
 
-        <h3 class="sub-title">Evidencia de optimización <span>— desliza para comparar</span></h3>
+        <h3 class="sub-title">Antes y después: organización de cableado <span>— desliza para comparar</span></h3>
         <div class="compare" id="compare" style="--pos: 50%">
-          <img src="https://raw.githubusercontent.com/DXZ-dev/JOBS/main/assest/despues.jpeg" alt="Después" class="compare-img" draggable="false">
-          <img src="https://raw.githubusercontent.com/DXZ-dev/JOBS/main/assest/antes.jpeg" alt="Antes" class="compare-img compare-before" draggable="false">
+          <img src="assets/trabajos/despues-cableado.jpg" alt="Después" class="compare-img" draggable="false">
+          <img src="assets/trabajos/antes-cableado.jpg" alt="Antes" class="compare-img compare-before" draggable="false">
           <span class="compare-tag left mono">ANTES</span>
           <span class="compare-tag right mono">DESPUÉS</span>
           <div class="compare-handle" aria-hidden="true"><i class="fas fa-arrows-left-right"></i></div>
@@ -170,23 +170,23 @@
           <button class="chip active" data-filter="all">Todos</button>
           <button class="chip" data-filter="ensamblaje">Ensamblaje</button>
           <button class="chip" data-filter="mantenimiento">Mantenimiento</button>
-          <button class="chip" data-filter="infra">Infraestructura</button>
         </div>
         <div class="gallery">
-          <figure data-cat="infra"><img loading="lazy" src="https://raw.githubusercontent.com/DXZ-dev/JOBS/main/assest/1630701451018.jpg" alt="Rack empresarial"><figcaption>Infraestructura de racks</figcaption></figure>
-          <figure data-cat="ensamblaje"><img loading="lazy" src="https://raw.githubusercontent.com/DXZ-dev/JOBS/main/assest/armado.jpeg" alt="PC gamer de alta gama"><figcaption>Montaje gamer build</figcaption></figure>
-          <figure data-cat="ensamblaje"><img loading="lazy" src="https://raw.githubusercontent.com/DXZ-dev/JOBS/main/assest/armada%202.jpeg" alt="Estación de edición"><figcaption>Estación de edición</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-rgb-watercooling.jpg" alt="PC con refrigeración líquida"><figcaption>Refrigeración líquida RGB</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-blanca-rtx.jpg" alt="PC blanca con GeForce RTX"><figcaption>Build blanca con RTX</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-gtx-montaje.jpg" alt="PC con GeForce GTX"><figcaption>Montaje con GeForce GTX</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/asus-gtx-instalada.jpg" alt="Tarjeta ASUS GeForce GTX instalada"><figcaption>Instalación de GPU ASUS</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/cableado-ordenado.jpg" alt="Interior de PC con cableado ordenado"><figcaption>Gestión de cables</figcaption></figure>
+          <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/cooler-torre.jpg" alt="Disipador de torre instalado"><figcaption>Disipador de torre</figcaption></figure>
+          <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/gpu-cooler-detalle.jpg" alt="Detalle de GPU ASUS y disipador"><figcaption>Detalle GPU y disipador</figcaption></figure>
+          <figure data-cat="mantenimiento"><img loading="lazy" src="assets/trabajos/gabinete-exterior.jpg" alt="Gabinete limpio por fuera"><figcaption>Limpieza de gabinete</figcaption></figure>
           <figure data-cat="mantenimiento"><img loading="lazy" src="assets/trabajos/gpu-mantenimiento.jpg" alt="Tarjeta gráfica desarmada"><figcaption>Mantenimiento de GPU</figcaption></figure>
           <figure data-cat="mantenimiento"><img loading="lazy" src="assets/trabajos/pasta-termica.jpg" alt="Cambio de pasta térmica y metal líquido"><figcaption>Cambio de pasta térmica y metal líquido</figcaption></figure>
           <figure data-cat="mantenimiento"><img loading="lazy" src="assets/trabajos/consola-mantenimiento.jpg" alt="Consola abierta"><figcaption>Mantenimiento de consola</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-blanca-rtx-2.jpg" alt="PC blanca con ventiladores ARGB"><figcaption>Ventiladores ARGB</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-gtx-lateral.jpg" alt="Vista lateral de PC terminada"><figcaption>Vista lateral terminada</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/gabinete-frontal.jpg" alt="Gabinete con ventiladores frontales"><figcaption>Gabinete con flujo frontal</figcaption></figure>
+          <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-oficina-terminada.jpg" alt="PC de oficina terminada con cableado organizado"><figcaption>PC de oficina terminada</figcaption></figure>
           <figure data-cat="ensamblaje"><img loading="lazy" src="assets/trabajos/pc-gamer-rgb.jpg" alt="PC gamer con RGB"><figcaption>PC gamer RGB</figcaption></figure>
         </div>
       </div>
@@ -257,11 +257,11 @@
   <a href="mailto:darlindxz@gmail.com" class="mail-float" title="Escríbeme a darlindxz@gmail.com" aria-label="Enviar correo"><i class="fas fa-envelope"></i></a>
 
   <div class="lightbox" hidden>
-    <button class="lb-close" aria-label="Cerrar"><i class="fas fa-xmark"></i></button>
+    <button class="lb-close" aria-label="Cerrar">✕</button>
     <img alt="">
     <p class="lb-caption"></p>
   </div>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=6"></script>
 </body>
 </html>
