@@ -1,5 +1,5 @@
 // ⚙️ Pon aquí la URL real de NexusConverter (ej: "https://nexusconverter.com")
-const NEXUS_URL = "#";
+const NEXUS_URL = "https://nexusconverter.org/";
 
 document.querySelectorAll(".nexus-link").forEach((a) => {
   a.href = NEXUS_URL;
